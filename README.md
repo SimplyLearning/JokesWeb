@@ -16,6 +16,7 @@ Without the use of extra files and extra steps to get it installed and working.
   IF the top causes issues.
   Type " npm install " when that is done " npm run dev "
 - A URL will display in the Terminal after " npm run dev " CTRL and click on the link.
+- Or you can copy, paste this URL into the browser http://localhost:5173/
 
 
 jokes.json is the index.json from [**__Github__**](https://github.com/15Dkatz/official_joke_api/blob/master/jokes/index.json)
