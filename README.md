@@ -1,12 +1,21 @@
-# React + Vite
+# React + Vite + Tailwindcss + localforage (Database) + JavaScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Uploading image.png…]()
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Please make sure to quickly click darkmode / lightmode toggle top right as soon as the webpage loads. 
+This is to prevent eyes burning but also has a meteor shower with stars darkmode theme ONLY. 
+All animated.
 
-## Expanding the ESLint configuration
+Due to the use of a database but also wanting to keep things simple..
+I went with **localforage** as this creates a database at runtime and is stored on the browser, a small 180kbs.
+But then it is destroyed when leaving the webpage. (according to my browser).
+Without the use of extra files and extra steps to get it installed and working.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# How to run
+- Clone repo
+- Open Terminal **CMD** in project.
+- Type " npm install && npm run dev "
+  IF the top causes issues.
+  Type " npm install " when that is done " npm run dev "
+- A URL will display in the Terminal after " npm run dev " CTRL and click on the link.
