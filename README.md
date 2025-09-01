@@ -20,5 +20,7 @@ Without the use of extra files and extra steps to get it installed and working.
 
 jokes.json is the index.json from [**__Github__**](https://github.com/15Dkatz/official_joke_api/blob/master/jokes/index.json)
 
+![Preview](./preview.png)
+
 
 ![Uploading image.png…]()
